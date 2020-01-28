@@ -1,0 +1,244 @@
+.container {
+  width: 1280px;
+  background: #FCFCFC 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0 auto;
+}
+
+.header {
+  height: 60px;
+}
+
+.header .header-logo {
+  text-align: center;
+  font: SemiBold 16px/16px Gill Sans;
+  letter-spacing: 0;
+  color: #918F89;
+  opacity: 1;
+  margin: 15px 88px;
+  float: left;
+}
+
+.header li {
+  list-style: none;
+  text-align: left;
+  font: ExtraLight 16px/22px Noto Sans;
+  letter-spacing: 0;
+  color: #272727;
+  opacity: 0.5;
+}
+
+.header .global-nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 90px 0px 705px;
+}
+
+.top .back {
+  width: 702px;
+  height: 136px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 0.8;
+  top: 324px;
+  position: absolute;
+}
+
+.top h1 {
+  text-align: left;
+  font: Thin 60px/82px Noto Sans;
+  letter-spacing: 3px;
+  color: #918F89;
+  opacity: 1;
+  top: 355px;
+  margin-left: 88px;
+  position: absolute;
+}
+
+.block2 .img_02 {
+  padding-top: 142px;
+  padding-left: 88px;
+  float: left;
+}
+
+.block2 .text {
+  float: left;
+  padding-left: 70px;
+}
+
+.block2 .text h2 {
+  text-align: left;
+  font: L 25px/53px DNPShueiMinPr6;
+  letter-spacing: 2.5px;
+  color: #3B3B3B;
+  opacity: 1;
+  padding-top: 343px;
+}
+
+.block2 .text p {
+  text-align: left;
+  font: L 12px/30px DNP ShueiGoKinStd;
+  letter-spacing: 0.36px;
+  color: #3B3B3B;
+  opacity: 1;
+}
+
+.gallery {
+  clear: both;
+  width: 1280px;
+}
+
+.gallery h2 {
+  width: 194px;
+  height: 29px;
+  text-align: left;
+  font: L 25px/53px DNPShueiMinPr6;
+  letter-spacing: 2.5px;
+  color: #3B3B3B;
+  opacity: 1;
+  padding: 210px 543px 40px 543px;
+}
+
+.gallery .img_03 {
+  padding: 40px 158px;
+}
+
+.news {
+  padding-top: 246px;
+}
+
+.news h2 {
+  width: 79px;
+  height: 29px;
+  text-align: left;
+  font: ExtraLight 25px/53px Noto Sans;
+  letter-spacing: 2.5px;
+  color: #3B3B3B;
+  opacity: 1;
+  padding-left: 600.5px;
+  padding-bottom: 50px;
+}
+
+.news .img_04 {
+  margin-left: 89px;
+  margin-right: 50px;
+}
+
+.news .img_05 {
+  margin-right: 50px;
+}
+
+.news h3 {
+  text-align: left;
+  font: ExtraLight 21px/53px Noto Sans;
+  letter-spacing: 1.05px;
+  color: #3B3B3B;
+  opacity: 1;
+  margin-left: 590px;
+}
+
+.contact-form {
+  margin-top: 210px;
+}
+
+.contact-form h2 {
+  text-align: left;
+  font: ExtraLight 25px/53px Noto Sans;
+  letter-spacing: 2.5px;
+  color: #3B3B3B;
+  opacity: 1;
+  margin-left: 574.5px;
+}
+
+.contact-form .name {
+  width: 463px;
+  height: 35px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #707070;
+  border-radius: 11px;
+  opacity: 0.6;
+  margin-left: 409px;
+  margin-bottom: 30px;
+}
+
+.contact-form .mail {
+  width: 463px;
+  height: 35px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #707070;
+  border-radius: 11px;
+  opacity: 0.6;
+  margin-left: 409px;
+  margin-bottom: 30px;
+}
+
+.contact-form .textarea {
+  width: 463px;
+  height: 156px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #707070;
+  border-radius: 11px;
+  opacity: 0.6;
+  margin-left: 409px;
+  margin-bottom: 60px;
+}
+
+.contact-form .submit {
+  width: 111px;
+  height: 35px;
+  background: #D1D1D1 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 584px;
+  border-radius: 16px;
+}
+
+.footer {
+  width: 1280px;
+  height: 416px;
+  background: #918F89 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 233px;
+}
+
+.footer .footer-logo {
+  width: 77px;
+  height: 48px;
+  text-align: center;
+  font: SemiBold 22px/21px Gill Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 227px;
+  padding-top: 116px;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 726px;
+  padding-bottom: 124px;
+}
+
+.footer li {
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+  text-align: left;
+  font: ExtraLight 18px/24px Noto Sans;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-right: 102px;
+}
+
+.footer p {
+  width: 82px;
+  height: 9px;
+  text-align: center;
+  font: Light 10px/16px Gill Sans;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-left: 599px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
