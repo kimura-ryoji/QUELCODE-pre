@@ -1,60 +1,41 @@
 .container {
-    width: 1280px;
-    background: #FCFCFC 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin: 0 auto;
+  width: 1280px;
+  background: #FCFCFC 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0 auto;
 }
 
 .header {
-    height: 60px;
+  height: 60px;
 }
 
-.header-logo {
-    text-align: center;
-    font: SemiBold 16px/16px Gill Sans;
-    letter-spacing: 0;
-    color: #918F89;
-    opacity: 1;
-    margin: 15px 88px;
-    float: left;
+.header .header-logo {
+  text-align: center;
+  font: SemiBold 16px/16px Gill Sans;
+  letter-spacing: 0;
+  color: #918F89;
+  opacity: 1;
+  margin: 15px 88px;
+  float: left;
 }
 
-li {
-    list-style: none;
+.header li {
+  list-style: none;
+  text-align: left;
+  font: ExtraLight 16px/22px Noto Sans;
+  letter-spacing: 0;
+  color: #272727;
+  opacity: 0.5;
 }
 
-.global-nav-items {
-    display: flex;
-    padding: 25px 90px 0px 705px;
+.header .global-nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 90px 0px 705px;
 }
 
-.nav-item-1 {
-    text-align: left;
-    font: ExtraLight 16px/22px Noto Sans;
-    letter-spacing: 0;
-    color: #272727;
-    opacity: 1;
-    padding-right: 107px;
-}
-
-.nav-item-2 {
-    text-align: left;
-    font: ExtraLight 16px/22px Noto Sans;
-    letter-spacing: 0;
-    color: #272727;
-    opacity: 0.5;
-    padding-right: 114px;
-}
-
-.nav-item-3 {
-    text-align: left;
-    font: ExtraLight 16px/22px Noto Sans;
-    letter-spacing: 0;
-    color: #272727;
-    opacity: 0.5;
-}
-
-.back {
+.top .back {
   width: 702px;
   height: 136px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -63,7 +44,7 @@ li {
   position: absolute;
 }
 
-h1 {
+.top h1 {
   text-align: left;
   font: Thin 60px/82px Noto Sans;
   letter-spacing: 3px;
@@ -74,32 +55,32 @@ h1 {
   position: absolute;
 }
 
-.img_02 {
-    padding-top: 142px;
-    padding-left: 88px;
-    float: left;
+.block2 .img_02 {
+  padding-top: 142px;
+  padding-left: 88px;
+  float: left;
 }
 
-.text {
-    float: left;
-    padding-left: 70px;
+.block2 .text {
+  float: left;
+  padding-left: 70px;
 }
 
-.text h2 {
-    text-align: left;
-    font: L 25px/53px DNPShueiMinPr6;
-    letter-spacing: 2.5px;
-    color: #3B3B3B;
-    opacity: 1;
-    padding-top: 343px;
+.block2 .text h2 {
+  text-align: left;
+  font: L 25px/53px DNPShueiMinPr6;
+  letter-spacing: 2.5px;
+  color: #3B3B3B;
+  opacity: 1;
+  padding-top: 343px;
 }
 
-.text p {
-    text-align: left;
-    font: L 12px/30px DNP ShueiGoKinStd;
-    letter-spacing: 0.36px;
-    color: #3B3B3B;
-    opacity: 1;
+.block2 .text p {
+  text-align: left;
+  font: L 12px/30px DNP ShueiGoKinStd;
+  letter-spacing: 0.36px;
+  color: #3B3B3B;
+  opacity: 1;
 }
 
 .gallery {
@@ -118,7 +99,7 @@ h1 {
   padding: 210px 543px 40px 543px;
 }
 
-.img_03 {
+.gallery .img_03 {
   padding: 40px 158px;
 }
 
@@ -138,12 +119,12 @@ h1 {
   padding-bottom: 50px;
 }
 
-.img_04 {
+.news .img_04 {
   margin-left: 89px;
   margin-right: 50px;
 }
 
-.img_05 {
+.news .img_05 {
   margin-right: 50px;
 }
 
@@ -169,7 +150,7 @@ h1 {
   margin-left: 574.5px;
 }
 
-.name {
+.contact-form .name {
   width: 463px;
   height: 35px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -180,7 +161,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.mail {
+.contact-form .mail {
   width: 463px;
   height: 35px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -191,7 +172,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.textarea {
+.contact-form .textarea {
   width: 463px;
   height: 156px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -202,7 +183,7 @@ h1 {
   margin-bottom: 60px;
 }
 
-.submit {
+.contact-form .submit {
   width: 111px;
   height: 35px;
   background: #D1D1D1 0% 0% no-repeat padding-box;
@@ -219,7 +200,7 @@ h1 {
   margin-top: 233px;
 }
 
-.footer-logo {
+.footer .footer-logo {
   width: 77px;
   height: 48px;
   text-align: center;
@@ -232,13 +213,16 @@ h1 {
 }
 
 .footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-left: 726px;
   padding-bottom: 124px;
 }
 
 .footer li {
-  transform: matrix(1, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
   text-align: left;
   font: ExtraLight 18px/24px Noto Sans;
   letter-spacing: 0;
@@ -255,5 +239,6 @@ h1 {
   letter-spacing: 0.4px;
   color: #FFFFFF;
   opacity: 1;
-  margin-left: 599px
+  margin-left: 599px;
 }
+/*# sourceMappingURL=stylesheet.css.map */
